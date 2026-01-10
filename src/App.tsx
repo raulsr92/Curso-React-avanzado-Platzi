@@ -1,12 +1,16 @@
 import './App.css'
+import CompoundComponent from './components/CompoundComponents/CompoundComponents'
 import ParentComponent from './components/ParentComponent'
 
 function App() {
 
   return (
     <>
-      <h1>Bievenido a mi App</h1>
       <ParentComponent/>
+
+
+
+      <CompoundComponent/>
 
     </>
   )
